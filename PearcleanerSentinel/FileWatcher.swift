@@ -1,6 +1,6 @@
 //
 //  FileWatcher.swift
-//  Pearcleaner
+//  Applecleaner
 //
 //  Created by Alin Lupascu on 9/2/25.
 //
