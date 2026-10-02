@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.alienator88.Pearcleaner.PearcleanerHelper</string>
+	<string>com.YourLocalGoober.Applecleaner.ApplecleanerHelper</string>
 	<key>BundleProgram</key>
-	<string>Contents/MacOS/PearcleanerHelper</string>
+	<string>Contents/MacOS/ApplecleanerHelper</string>
 	<key>MachServices</key>
 	<dict>
-		<key>com.alienator88.Pearcleaner.PearcleanerHelper</key>
+		<key>com.YourLocalGoober.Applecleaner.ApplecleanerHelper</key>
 		<true/>
 	</dict>
 	<key>AssociatedBundleIdentifiers</key>
 	<array>
-		<string>com.alienator88.Pearcleaner</string>
+		<string>com.YourLocalGoober.Applecleaner</string>
 	</array>
 </dict>
 </plist>
