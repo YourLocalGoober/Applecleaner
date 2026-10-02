@@ -1,6 +1,6 @@
 //
 //  AppGroupDefaults.swift
-//  Pearcleaner
+//  Applecleaner
 //
 //  Created by Alin Lupascu on 9/30/25.
 //
@@ -8,7 +8,7 @@
 import Foundation
 
 extension UserDefaults {
-    static let appGroup = UserDefaults(suiteName: "group.com.alienator88.Pearcleaner")!
+    static let appGroup = UserDefaults(suiteName: "group.com.YourLocalGoober.Applecleaner")!
 
     struct Keys {
         static let showAppIconInMenu = "showAppIconInMenu"
