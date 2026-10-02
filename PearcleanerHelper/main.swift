@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  PearcleanerHelper
+//  ApplecleanerHelper
 //
 //  Created by Alin Lupascu on 3/14/25.
 //
@@ -95,7 +95,7 @@ class HelperToolDelegate: NSObject, NSXPCListenerDelegate, HelperToolProtocol {
 
 // Set up and start the XPC listener.
 let delegate = HelperToolDelegate()
-let listener = NSXPCListener(machServiceName: "com.alienator88.Pearcleaner.PearcleanerHelper")
+let listener = NSXPCListener(machServiceName: "com.YourLocalGoober.Applecleaner.ApplecleanerHelper")
 listener.delegate = delegate
 listener.resume()
 RunLoop.main.run()
