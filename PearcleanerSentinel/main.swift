@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  PearcleanerSentinel
+//  ApplecleanerSentinel
 //
 //  Created by Alin Lupascu on 11/9/23.
 //
@@ -29,11 +29,11 @@ func stopGlobalFileWatcher() {
 
 func setupNotificationListener() {
     let notificationCenter = DistributedNotificationCenter.default()
-    notificationCenter.addObserver(forName: Notification.Name("Pearcleaner.StartFileWatcher"), object: nil, queue: nil) { notification in
+    notificationCenter.addObserver(forName: Notification.Name("Applecleaner.StartFileWatcher"), object: nil, queue: nil) { notification in
         print("Received start notification")
         startGlobalFileWatcher()
     }
-    notificationCenter.addObserver(forName: Notification.Name("Pearcleaner.StopFileWatcher"), object: nil, queue: nil) { notification in
+    notificationCenter.addObserver(forName: Notification.Name("Applecleaner.StopFileWatcher"), object: nil, queue: nil) { notification in
         print("Received stop notification")
         stopGlobalFileWatcher()
     }
@@ -51,7 +51,7 @@ func checkApp(file: String) {
     let appExt = app.pathExtension
     if appExt == "app" {
         if let appBundle = Bundle(url: app) {
-            if appBundle.bundleIdentifier == "com.alienator88.Pearcleaner" {
+            if appBundle.bundleIdentifier == "com.YourLocalGoober.Applecleaner" {
                 return
             } else {
                 if FileManager.default.isInTrash(app) {
