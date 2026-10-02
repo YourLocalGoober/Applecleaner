@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.alienator88.PearcleanerSentinel</string>
+	<string>com.YourLocalGoober.ApplecleanerSentinel</string>
 	<key>BundleProgram</key>
-	<string>Contents/MacOS/PearcleanerSentinel</string>
+	<string>Contents/MacOS/ApplecleanerSentinel</string>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>KeepAlive</key>
 	<true/>
 	<key>AssociatedBundleIdentifiers</key>
 	<array>
-		<string>com.alienator88.Pearcleaner</string>
+		<string>com.YourLocalGoober.Applecleaner</string>
 	</array>
 </dict>
 </plist>
