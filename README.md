@@ -9,7 +9,7 @@ Applecleaner is currently in development. It is a continuation of alienator88's 
    <img src="https://github.com/user-attachments/assets/62cd5fcb-92d3-4d3a-9664-161a7deabd46" align="center" width="160" height="160" />
 
    <br />
-   <strong>Status: </strong>On Hold
+   <strong>Status: </strong>In Development
    <br />
    <strong>Version: </strong>5.4.3
    <br />
